@@ -14,6 +14,7 @@ count = int(input("number of times to send same message "))
 text = input("Enter your message ")
 
 driver = webdriver.Chrome(r"C:\Users\91799\PycharmProjects\myprojects\chromedriver.exe")
+                                #give the path of your chromedriver in your pc
 
 
 def open_whataspp():
